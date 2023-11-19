@@ -27,7 +27,7 @@ ECMAScriptとは、
 
 ### 結果
 
-[結果](javas_11.png)
+![結果](javas_11.png)
 
 
 
