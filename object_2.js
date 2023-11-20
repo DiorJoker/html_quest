@@ -43,8 +43,16 @@ let users = [
 ];
 
 //関数定義
-function checkPermission(Username, Permission) {
-  //内容
+function checkPermission(username, permission) {
+  //オブジェクトの取得と変数への格納
+  const user = users.find(function(user) {
+    return user.username === username;
+  });
+
+  //そのオブジェクトのpermissionの値を取得と表示
+  const per = user.permissions === permission
+  console.log(per);
+
 }
 
 //関数呼び出し
